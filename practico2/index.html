@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Juego de Piedra, Papel o Tijera</title>
+</head>
+<body>
+  <!-- ... (tablero) ... -->
+
+<div class="score">
+  <h2>Marcador:</h2>
+  <p id="playerScore">Jugador: 0</p>
+  <p id="cpuScore">PC: 0</p>
+</div>
+  <!-- ... (boton reset) ... -->
+<div class="reset"> 
+  <button id="resetButton">Reiniciar Juego</button>
+</div>
+
+
+  <div class="container">
+    <h1>Juego de Piedra, Papel o Tijera</h1>
+   <!-- ... (ingresar nombre) ... -->
+    <div class="player-info">
+      <label for="playerName">Ingrese su nombre: </label>
+      <input type="text" id="playerName">
+    </div>
+   <!-- ... (elegir jugada) ... -->
+    <div class="options">
+      <img class="choice" id="piedra" src="piedra.jpg" alt="Piedra" width="100" height="100">
+      <img class="choice" id="papel" src="papel.jpg" alt="Papel" width="100" height="100">
+      <img class="choice" id="tijera" src="tijera.jpg" alt="Tijera" width="100" height="100">
+    </div>
+   <!-- ... (verificador de jugada) ... -->
+    <div id="result" class="result"></div>
+  
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/*Styles.css*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blueviolet;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+main {
+    padding: 20px;
+}
+
+article{
+    margin-bottom: 30px;
+}
+
+article h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+articule ul {
+    list-style: none;
+    padding: 0;
+}
+
+article li {
+    margin-bottom: 5px;
+}
+
+article p {
+    margin: 0;
+}
+
+
+
